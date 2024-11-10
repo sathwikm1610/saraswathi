@@ -1,0 +1,192 @@
+/* Color Palette */
+:root {
+    --yellow: rgb(255, 255, 5);
+    --violet: hsl(309, 91%, 27%);
+    --cream: #FFF8E1;
+    --white: #FFFFFF;
+  }
+  
+  /* Basic Styles */
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cream);
+    color: var(--violet);
+  }
+  
+  /* Header */
+  header {
+    background-color: var(--violet);
+    color: var(--white);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  .logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  /* Top Bar */
+  .top-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    z-index: 1;
+  }
+  
+  .white-bar {
+    background-color: var(--white);
+  }
+  
+  .nav-bar {
+    background-color: var(--yellow);
+    z-index: 2;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: var(--violet);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: var(--violet);
+    color: var(--white);
+  }
+  
+  /* Loan Advertisement */
+  .loan-ad {
+    background-color: var(--yellow);
+    color: var(--violet);
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .loan-ad h2 {
+    margin-top: 0;
+    font-size: 2rem;
+  }
+  
+  .loan-ad p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .loan-ad button {
+    background-color: var(--violet);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  .loan-ad button:hover {
+    background-color: var(--cream);
+    color: var(--violet);
+  }
+  
+  /* Main Content */
+  main {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  /* Call-to-Action */
+  .cta {
+    background-color: var(--violet);
+    color: var(--white);
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .cta h2 {
+    margin-top: 0;
+    font-size: 2rem;
+  }
+  
+  .cta p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta button {
+    background-color: var(--yellow);
+    color: var(--violet);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  .cta button:hover {
+    background-color: var(--white);
+  }
+  
+  /* Hero Section */
+  .hero {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--violet);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .social-icons a {
+    color: var(--white);
+    margin: 0 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: var(--yellow);
+  }
